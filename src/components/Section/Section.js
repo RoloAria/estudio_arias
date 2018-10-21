@@ -19,7 +19,7 @@ const Section = (props) => {
                         username: 'AFIPComunica',
                         height: '600'
                     }}
-                    onLoad={() => console.log('Timeline is loaded!')}
+                    onLoad={() => console.log('Timeline is loaded')}
                 />
             </SideSection>
         </div>
