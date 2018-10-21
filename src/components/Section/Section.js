@@ -4,7 +4,6 @@ import styles from './Section.module.css';
 import { Route } from 'react-router-dom';
 import SideSection from '../SideSection/SideSection';
 import { Timeline } from 'react-twitter-widgets';
-import InfoTitle from '../Info/InfoTitle/InfoTitle';
 
 const Section = (props) => {
     return (
