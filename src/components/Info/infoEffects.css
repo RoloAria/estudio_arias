@@ -1,0 +1,21 @@
+
+.fade-enter{
+    transform: translateX(1600px);
+
+}
+.fade-enter-active{
+    max-width: 1250px;
+    position: absolute;
+    transition: all 1s ease-out;
+    transform: translateX(0px);
+}
+.fade-exit{
+    transform: translateX(0px);
+
+
+}
+.fade-exit-active{
+    transition: all 1s ease-out;
+    transform: translateX(-1600px);
+
+}

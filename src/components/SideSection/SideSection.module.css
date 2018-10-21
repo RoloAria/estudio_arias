@@ -1,0 +1,26 @@
+.SideSection{
+    background-color: white;
+    width: calc(20.6666% - 0em);
+    margin-left: 0;
+    margin-right: 0;
+    top: 0;
+    right: 0;
+    min-width: 12em;
+    padding-top: 2em;
+    z-index: 750;
+    box-sizing: inherit;
+    box-shadow: -4px 0 15px -4px rgba(0, 1, 2, 0.8);
+}
+.SideSection div{
+    margin: auto;
+    max-width: 200px;
+}
+
+@media (max-width: 770px){
+    .SideSection{
+        width: 100%;
+    }
+    .SideSection > div{
+        max-width: 260px;;
+    }
+}

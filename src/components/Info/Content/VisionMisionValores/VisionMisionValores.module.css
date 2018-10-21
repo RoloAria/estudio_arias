@@ -1,0 +1,8 @@
+.VisionMisionValores{
+    display: flex;
+    margin-top: 5vw;
+}
+
+.VisionMisionValores div{
+    width: 33.33%;
+}

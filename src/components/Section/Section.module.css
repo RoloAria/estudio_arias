@@ -1,0 +1,13 @@
+.Section{
+    display: flex;
+    position: relative;
+    z-index: 700;
+    text-align: center;
+    background-color: white;
+}
+
+@media (max-width: 770px){
+    .Section{
+        display: block;
+    }
+}

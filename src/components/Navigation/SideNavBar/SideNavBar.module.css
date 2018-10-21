@@ -1,0 +1,31 @@
+.SideNavBar{
+    width: calc(15.0% - 0em);
+    margin-left: 0;
+    margin-right: 0;
+    position: sticky;
+    top: 0;
+    min-width: 12em;
+    max-height: 91.5vh;
+    padding-top: 5em;
+    z-index: 1000;
+    box-sizing: inherit;
+    background-color: white;
+    box-shadow: 8px 0 15px -4px rgba(0, 1, 2, 0.8);
+}
+.SideNavBar nav{
+    margin-top: 50px;
+    text-align: left;
+}
+
+@media (max-width: 770px){
+    .SideNavBar{
+        position: fixed;
+        height: 100%;
+        transform: translateX(-200px);
+        transition: transform 0.3s ease-out;
+    }
+    .slide{
+        transform: translateX(0);
+    }
+    
+}

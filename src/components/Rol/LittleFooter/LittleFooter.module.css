@@ -1,0 +1,9 @@
+.LittleFooter{
+    width: 90%;
+    height: 150px;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 40px;
+    padding: 0;
+
+}
